@@ -7,5 +7,5 @@ class Smartphone:
         self.phone_model = phone_model
         self.phone_number = phone_number
 
-    def print_result (self):
-        return f"{self.phone_brand} - {self.phone_model}. {self.phone_number}"
+    def __str__ (self):
+         return f"{self.phone_brand} - {self.phone_model}. {self.phone_number}"
